@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import Link from 'next/link';
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
+import Image from 'next/image';
+
 
 
 
@@ -31,7 +33,10 @@ const Navbar = () => {
 
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-        <div className="max-2-[1240px] m-auto flex justify-between items-center p-4 text-white">
+        <div className="max-2-[1240px] m-auto flex flex-cols justify-between items-center p-4 text-white">
+            <div className='ml-2'>
+             <Image src='/Yeti_2_small.png' alt='Logo' width={100} height={90}/>
+            </div>
             <Link href='/'>
             <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'> YETI FROZEN CUSTARD</h1>
             </Link>
