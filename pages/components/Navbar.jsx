@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
     const handleNav = () => {
-        setNav(true)
+        setNav(!nav)
     }
 
     useEffect(() => {
@@ -24,7 +24,7 @@ const Navbar = () => {
            setTextColor('#000000')
         } else {
             setColor('transparent')
-            setTextColor('ffffff')
+            setTextColor('#ffffff')
         }
      }
      window.addEventListener('scroll', changeColor)
@@ -38,7 +38,7 @@ const Navbar = () => {
              <Image src='/Yeti_2_small.png' alt='Logo' width={100} height={90}/>
             </div>
             <Link href='/'>
-            <h1 style={{color: `${textColor}`}} className='sm:font-bold sm:text-4xl'> YETI FROZEN CUSTARD</h1>
+            <h1 style={{color: `${textColor}`}} className='sm:font-bold sm:text-4xl md:text-3xl text-2xl font-bold'> YETI FROZEN CUSTARD</h1>
             </Link>
             <ul style={{color: `${textColor}`}} className='hidden sm:flex gap-10'>
                 <li>

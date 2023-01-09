@@ -7,6 +7,7 @@ import { getTweets } from './library/Twitter'
 import Tweetss from './Tweetss'
 import { Hero } from './components/Hero'
 import { Carousel } from './components/Carousel'
+import Footer from './components/Footer'
 import TweetBox from './components/TweetBox'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -29,6 +30,7 @@ export default function Home({tweets}) {
     return <Tweetss key={tweet.id} {...tweet}/>
    })}
     </div>
+    <Footer/>
        
     </>
   )
