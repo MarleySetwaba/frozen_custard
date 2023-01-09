@@ -3,12 +3,12 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
-import { getTweets } from './library/Twitter'
+import { getTweets } from './library/GetTweets'
 import Tweetss from './Tweetss'
 import { Hero } from './components/Hero'
 import { Carousel } from './components/Carousel'
 import Footer from './components/Footer'
-import TweetBox from './components/TweetBox'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
