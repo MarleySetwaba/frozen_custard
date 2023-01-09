@@ -22,6 +22,9 @@ export default function Home({tweets}) {
     {/* HERO SECTION */}
     <Hero />
     <div className='mt-2 p-20'>
+      <div className='mx-auto grid justify-items-center w-full'>
+        <h2 className='text-3xl text-black font-bold'>Twitter Feed</h2>
+      </div>
     {tweets.map((tweet) => {
     return <Tweetss key={tweet.id} {...tweet}/>
    })}

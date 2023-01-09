@@ -23,8 +23,10 @@ module.exports = {
         port: '',
         pathname: '/media/**'
       }
-    ]
-   
+    ]  
+  },
+  env: {
+     twitter_api_key: 'AAAAAAAAAAAAAAAAAAAAALWlkgEAAAAAml0uFl0lEAQwGW5dMneiZLx43NA%3DSWGfCThB2et5xv1ycJUdqyYtyggI3GsA93DAyz2duRDVxKjjPN'
   },
   experimental: {
     fontLoaders: [

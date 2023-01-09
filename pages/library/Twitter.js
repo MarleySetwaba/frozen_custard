@@ -10,7 +10,7 @@ export const getTweets = async () => {
         'https://api.twitter.com/2/tweets/search/recent?tweet.fields=attachments,author_id,public_metrics,created_at,id,in_reply_to_user_id,referenced_tweets&expansions=author_id,attachments.media_keys,referenced_tweets.id,referenced_tweets.id.author_id&user.fields=id,name,profile_image_url,protected,url,username,verified&query=frozen+custard&media.fields=duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics',
         {
             headers: {
-                Authorization: `Bearer AAAAAAAAAAAAAAAAAAAAALWlkgEAAAAAml0uFl0lEAQwGW5dMneiZLx43NA%3DSWGfCThB2et5xv1ycJUdqyYtyggI3GsA93DAyz2duRDVxKjjPN`
+                Authorization: `Bearer ${process.env.twitter_api_key}`
             }
         }
     )

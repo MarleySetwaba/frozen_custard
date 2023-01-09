@@ -38,7 +38,7 @@ const Navbar = () => {
              <Image src='/Yeti_2_small.png' alt='Logo' width={100} height={90}/>
             </div>
             <Link href='/'>
-            <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'> YETI FROZEN CUSTARD</h1>
+            <h1 style={{color: `${textColor}`}} className='sm:font-bold sm:text-4xl'> YETI FROZEN CUSTARD</h1>
             </Link>
             <ul style={{color: `${textColor}`}} className='hidden sm:flex gap-10'>
                 <li>
