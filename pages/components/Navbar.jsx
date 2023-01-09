@@ -45,13 +45,13 @@ const Navbar = () => {
                     <Link href='/'>Home</Link>
                 </li>
                 <li>
-                    <Link href='/'>Gallery</Link>
+                    <Link href='/'>About Us</Link>
                 </li>
                 <li>
-                    <Link href='/'>About</Link>
+                    <Link href='/'>Twitter</Link>
                 </li>
                 <li>
-                    <Link href='/'>Contact</Link>
+                    <Link href='/'>Contact Us</Link>
                 </li>
             </ul>
 
@@ -69,10 +69,10 @@ const Navbar = () => {
                     <Link href='/'>Home</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/'>Gallery</Link>
+                    <Link href='/'>About Us</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/'>About</Link>
+                    <Link href='/'>Twitter</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
                     <Link href='/'>Contact</Link>
